@@ -1,0 +1,55 @@
+body {
+  background-color: #aeb8fe;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 32px;
+}
+
+.dice {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  background-color: #efe5dc;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
